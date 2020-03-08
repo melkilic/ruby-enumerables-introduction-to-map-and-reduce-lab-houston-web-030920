@@ -14,6 +14,7 @@ def map_to_no_change(source_array)
   i = 0
   while i< source_array.length do
     new_arr.push(source_array[i])
+    i += 1
   end
   return new_arr
 end
